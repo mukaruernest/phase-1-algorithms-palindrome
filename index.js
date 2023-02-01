@@ -1,10 +1,17 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  const reverseLetters = word.reverse()
+  return reverseLetters
 }
 
-/* 
-  Add your pseudocode here
-*/
+ if (word == reverseLetters){
+
+    return true
+
+  } else {
+    return false
+  }
+
+}
 
 /*
   Add written explanation of your solution here
